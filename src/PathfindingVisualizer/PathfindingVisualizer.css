@@ -1,0 +1,82 @@
+.grid {
+  margin: 100px 0 0;
+}
+.visualize-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.visualize-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.visualize-button:active {
+  background-color: #004494;
+  transform: translateY(0);
+}
+.controls {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.controls button:hover {
+  transform: scale(1.05);
+}
+
+/* Specific button colors */
+.set-start {
+  background-color: #00c853; /* Green - same as start node */
+}
+
+.set-finish {
+  background-color: #d50000; /* Red - same as finish node */
+}
+
+.draw-wall {
+  background-color: #616161; /* Grey - for walls */
+}
+
+.visualize-button {
+  background-color: #2962ff; /* Blue */
+}
+
+.set-start:hover {
+  background-color: #00b44a;
+}
+
+.set-finish:hover {
+  background-color: #b71c1c;
+}
+
+.draw-wall:hover {
+  background-color: #424242;
+}
+
+.visualize-button:hover {
+  background-color: #0039cb;
+}
